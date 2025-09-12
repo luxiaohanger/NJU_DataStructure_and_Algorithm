@@ -1,0 +1,9 @@
+# ninja log v6
+9	2362	7793561486487761	01/CMakeFiles/air.dir/air_tower.cpp.obj	4d7c2a4e34a1aec1
+10	2037	7793595670985360	01/CMakeFiles/strangeComputer.dir/strangeComputer.cpp.obj	c42efd6d07093412
+2362	3244	7793561510014650	01/air.exe	5ae2711b27488e
+2039	2841	7793595691279129	01/strangeComputer.exe	a7170875eca70009
+6	1866	7793622017565471	01/CMakeFiles/numlistSolve.dir/numlistSolve.cpp.obj	86a99477e3a6aaea
+1867	2084	7793622036169352	01/numlistSolve.exe	871be0a89d082c93
+6	1840	7793641622075781	01/CMakeFiles/city_skyline.dir/city_skyline.cpp.obj	be4f0d6838285d64
+1841	2067	7793641640432794	01/city_skyline.exe	783bf9ead24495ce

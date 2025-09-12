@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "01",
+					"jsonFile" : "directory-01-Debug-b8c12cf7c5f376019608.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "01",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "Code_dateStructure_Algorithm",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Code_dateStructure_Algorithm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Code_dateStructure_Algorithm-Debug-c0cb560ae61739f7bab7.json",
+					"name" : "Code_dateStructure_Algorithm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "air::@b6636575af0a6514c0ef",
+					"jsonFile" : "target-air-Debug-854d2226ac8abb016912.json",
+					"name" : "air",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "city_skyline::@b6636575af0a6514c0ef",
+					"jsonFile" : "target-city_skyline-Debug-30d28de69c153eac0403.json",
+					"name" : "city_skyline",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "numlistSolve::@b6636575af0a6514c0ef",
+					"jsonFile" : "target-numlistSolve-Debug-b5c71ee660bce47c6ebd.json",
+					"name" : "numlistSolve",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "strangeComputer::@b6636575af0a6514c0ef",
+					"jsonFile" : "target-strangeComputer-Debug-24d4752c3ad9802ce737.json",
+					"name" : "strangeComputer",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/cmake-build-debug",
+		"source" : "D:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
