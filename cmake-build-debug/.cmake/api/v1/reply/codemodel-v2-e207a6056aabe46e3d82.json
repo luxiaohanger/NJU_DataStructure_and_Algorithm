@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -34,10 +35,28 @@
 					"source" : "01",
 					"targetIndexes" : 
 					[
-						1,
 						2,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "02",
+					"jsonFile" : "directory-02-Debug-f284b716c77918628294.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "02",
+					"targetIndexes" : 
+					[
+						1,
 						3,
-						4
+						7,
+						8
 					]
 				}
 			],
@@ -48,7 +67,8 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "Code_dateStructure_Algorithm",
 					"targetIndexes" : 
@@ -57,7 +77,11 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8
 					]
 				}
 			],
@@ -71,10 +95,24 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 2,
+					"id" : "L::@aed00f32306a486cd96b",
+					"jsonFile" : "target-L-Debug-e701476032fda2d4279e.json",
+					"name" : "L",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "air::@b6636575af0a6514c0ef",
 					"jsonFile" : "target-air-Debug-854d2226ac8abb016912.json",
 					"name" : "air",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "c::@aed00f32306a486cd96b",
+					"jsonFile" : "target-c-Debug-a84e7c1a266896272537.json",
+					"name" : "c",
 					"projectIndex" : 0
 				},
 				{
@@ -96,6 +134,20 @@
 					"id" : "strangeComputer::@b6636575af0a6514c0ef",
 					"jsonFile" : "target-strangeComputer-Debug-24d4752c3ad9802ce737.json",
 					"name" : "strangeComputer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sum::@aed00f32306a486cd96b",
+					"jsonFile" : "target-sum-Debug-31a19da6f8bc5a80094e.json",
+					"name" : "sum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "swap::@aed00f32306a486cd96b",
+					"jsonFile" : "target-swap-Debug-f5639769ef37fe119dd8.json",
+					"name" : "swap",
 					"projectIndex" : 0
 				}
 			]
