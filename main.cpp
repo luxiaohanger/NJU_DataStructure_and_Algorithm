@@ -4,13 +4,13 @@ using ll = long long;
 using ld = long double;
 
 void solve() {
-
 }
-int main()
-{   ios::sync_with_stdio(false);
+
+int main() {
+    ios::sync_with_stdio(false);
     cin.tie(nullptr);
     int t;
-    cin>>t;
+    cin >> t;
     while (t--) {
         solve();
     }

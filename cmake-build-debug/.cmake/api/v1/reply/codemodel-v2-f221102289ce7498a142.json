@@ -9,7 +9,9 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3,
+						4
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -35,10 +37,10 @@
 					"source" : "01",
 					"targetIndexes" : 
 					[
-						2,
-						4,
-						5,
-						6
+						3,
+						6,
+						11,
+						14
 					]
 				},
 				{
@@ -53,10 +55,46 @@
 					"source" : "02",
 					"targetIndexes" : 
 					[
-						1,
-						3,
+						2,
+						4,
+						15,
+						16
+					]
+				},
+				{
+					"build" : "03",
+					"jsonFile" : "directory-03-Debug-fd1414feba3f6c25fd33.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "03",
+					"targetIndexes" : 
+					[
+						5,
 						7,
-						8
+						8,
+						10
+					]
+				},
+				{
+					"build" : "04",
+					"jsonFile" : "directory-04-Debug-2ee42e6b10ba1df4cc08.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "04",
+					"targetIndexes" : 
+					[
+						1,
+						9,
+						12,
+						13
 					]
 				}
 			],
@@ -68,7 +106,9 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4
 					],
 					"name" : "Code_dateStructure_Algorithm",
 					"targetIndexes" : 
@@ -81,7 +121,15 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
 					]
 				}
 			],
@@ -92,6 +140,13 @@
 					"id" : "Code_dateStructure_Algorithm::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Code_dateStructure_Algorithm-Debug-c0cb560ae61739f7bab7.json",
 					"name" : "Code_dateStructure_Algorithm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "F::@6cd3442ebafd9ee58f37",
+					"jsonFile" : "target-F-Debug-314405461400d5beb502.json",
+					"name" : "F",
 					"projectIndex" : 0
 				},
 				{
@@ -116,6 +171,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 3,
+					"id" : "cc::@18fdd8e98e1eaab5e303",
+					"jsonFile" : "target-cc-Debug-c61f33ba0114edb452e3.json",
+					"name" : "cc",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "city_skyline::@b6636575af0a6514c0ef",
 					"jsonFile" : "target-city_skyline-Debug-30d28de69c153eac0403.json",
@@ -123,10 +185,52 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 3,
+					"id" : "ct::@18fdd8e98e1eaab5e303",
+					"jsonFile" : "target-ct-Debug-dedc72c7d89084ff7be3.json",
+					"name" : "ct",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "data::@18fdd8e98e1eaab5e303",
+					"jsonFile" : "target-data-Debug-79633fff1014b2eee0fe.json",
+					"name" : "data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "dd::@6cd3442ebafd9ee58f37",
+					"jsonFile" : "target-dd-Debug-4a60fa9814d79527576f.json",
+					"name" : "dd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "min::@18fdd8e98e1eaab5e303",
+					"jsonFile" : "target-min-Debug-797cc83a4bd6d33e8f62.json",
+					"name" : "min",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "numlistSolve::@b6636575af0a6514c0ef",
 					"jsonFile" : "target-numlistSolve-Debug-b5c71ee660bce47c6ebd.json",
 					"name" : "numlistSolve",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "s2::@6cd3442ebafd9ee58f37",
+					"jsonFile" : "target-s2-Debug-514da9e1bfa6adff5ddc.json",
+					"name" : "s2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ss::@6cd3442ebafd9ee58f37",
+					"jsonFile" : "target-ss-Debug-99968b798c1a1f156531.json",
+					"name" : "ss",
 					"projectIndex" : 0
 				},
 				{
