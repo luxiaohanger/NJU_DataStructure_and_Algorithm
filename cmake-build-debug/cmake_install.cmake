@@ -57,6 +57,16 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("D:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/cmake-build-debug/04/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/cmake-build-debug/05/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/cmake-build-debug/old_src/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()

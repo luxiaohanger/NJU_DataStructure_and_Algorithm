@@ -737,6 +737,448 @@ build 04/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 04/rebuild_cache: phony 04/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target cl
+
+
+#############################################
+# Order-only phony target for cl
+
+build cmake_object_order_depends_target_cl: phony || .
+
+build 05/CMakeFiles/cl.dir/clean_tree.cpp.obj: CXX_COMPILER__cl_unscanned_Debug D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/05/clean_tree.cpp || cmake_object_order_depends_target_cl
+  DEP_FILE = 05\CMakeFiles\cl.dir\clean_tree.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = 05\CMakeFiles\cl.dir
+  OBJECT_FILE_DIR = 05\CMakeFiles\cl.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cl
+
+
+#############################################
+# Link the executable 05\cl.exe
+
+build 05/cl.exe: CXX_EXECUTABLE_LINKER__cl_Debug 05/CMakeFiles/cl.dir/clean_tree.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 05\CMakeFiles\cl.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 05\cl.exe
+  TARGET_IMPLIB = 05\libcl.dll.a
+  TARGET_PDB = cl.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LinkorFlower
+
+
+#############################################
+# Order-only phony target for LinkorFlower
+
+build cmake_object_order_depends_target_LinkorFlower: phony || .
+
+build 05/CMakeFiles/LinkorFlower.dir/LinkorFlower.cpp.obj: CXX_COMPILER__LinkorFlower_unscanned_Debug D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/05/LinkorFlower.cpp || cmake_object_order_depends_target_LinkorFlower
+  DEP_FILE = 05\CMakeFiles\LinkorFlower.dir\LinkorFlower.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = 05\CMakeFiles\LinkorFlower.dir
+  OBJECT_FILE_DIR = 05\CMakeFiles\LinkorFlower.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LinkorFlower
+
+
+#############################################
+# Link the executable 05\LinkorFlower.exe
+
+build 05/LinkorFlower.exe: CXX_EXECUTABLE_LINKER__LinkorFlower_Debug 05/CMakeFiles/LinkorFlower.dir/LinkorFlower.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 05\CMakeFiles\LinkorFlower.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 05\LinkorFlower.exe
+  TARGET_IMPLIB = 05\libLinkorFlower.dll.a
+  TARGET_PDB = LinkorFlower.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target uni
+
+
+#############################################
+# Order-only phony target for uni
+
+build cmake_object_order_depends_target_uni: phony || .
+
+build 05/CMakeFiles/uni.dir/uniShip.cpp.obj: CXX_COMPILER__uni_unscanned_Debug D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/05/uniShip.cpp || cmake_object_order_depends_target_uni
+  DEP_FILE = 05\CMakeFiles\uni.dir\uniShip.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = 05\CMakeFiles\uni.dir
+  OBJECT_FILE_DIR = 05\CMakeFiles\uni.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target uni
+
+
+#############################################
+# Link the executable 05\uni.exe
+
+build 05/uni.exe: CXX_EXECUTABLE_LINKER__uni_Debug 05/CMakeFiles/uni.dir/uniShip.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 05\CMakeFiles\uni.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 05\uni.exe
+  TARGET_IMPLIB = 05\libuni.dll.a
+  TARGET_PDB = uni.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bbt
+
+
+#############################################
+# Order-only phony target for bbt
+
+build cmake_object_order_depends_target_bbt: phony || .
+
+build 05/CMakeFiles/bbt.dir/binarybinaryTree.cpp.obj: CXX_COMPILER__bbt_unscanned_Debug D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/05/binarybinaryTree.cpp || cmake_object_order_depends_target_bbt
+  DEP_FILE = 05\CMakeFiles\bbt.dir\binarybinaryTree.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = 05\CMakeFiles\bbt.dir
+  OBJECT_FILE_DIR = 05\CMakeFiles\bbt.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bbt
+
+
+#############################################
+# Link the executable 05\bbt.exe
+
+build 05/bbt.exe: CXX_EXECUTABLE_LINKER__bbt_Debug 05/CMakeFiles/bbt.dir/binarybinaryTree.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 05\CMakeFiles\bbt.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 05\bbt.exe
+  TARGET_IMPLIB = 05\libbbt.dll.a
+  TARGET_PDB = bbt.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 05/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Code_jetbrains_toolbox\Code_dateStructure_Algorithm\cmake-build-debug\05 && "D:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 05/edit_cache: phony 05/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 05/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Code_jetbrains_toolbox\Code_dateStructure_Algorithm\cmake-build-debug\05 && "D:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Code_jetbrains_toolbox\Code_dateStructure_Algorithm -BD:\Code_jetbrains_toolbox\Code_dateStructure_Algorithm\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 05/rebuild_cache: phony 05/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build old_src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Code_jetbrains_toolbox\Code_dateStructure_Algorithm\cmake-build-debug\old_src && "D:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build old_src/edit_cache: phony old_src/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build old_src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Code_jetbrains_toolbox\Code_dateStructure_Algorithm\cmake-build-debug\old_src && "D:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Code_jetbrains_toolbox\Code_dateStructure_Algorithm -BD:\Code_jetbrains_toolbox\Code_dateStructure_Algorithm\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build old_src/rebuild_cache: phony old_src/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/old_src/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target cir
+
+
+#############################################
+# Order-only phony target for cir
+
+build cmake_object_order_depends_target_cir: phony || .
+
+build old_src/01/CMakeFiles/cir.dir/circleQueue.cpp.obj: CXX_COMPILER__cir_unscanned_Debug D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/old_src/01/circleQueue.cpp || cmake_object_order_depends_target_cir
+  DEP_FILE = old_src\01\CMakeFiles\cir.dir\circleQueue.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = old_src\01\CMakeFiles\cir.dir
+  OBJECT_FILE_DIR = old_src\01\CMakeFiles\cir.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cir
+
+
+#############################################
+# Link the executable old_src\01\cir.exe
+
+build old_src/01/cir.exe: CXX_EXECUTABLE_LINKER__cir_Debug old_src/01/CMakeFiles/cir.dir/circleQueue.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = old_src\01\CMakeFiles\cir.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = old_src\01\cir.exe
+  TARGET_IMPLIB = old_src\01\libcir.dll.a
+  TARGET_PDB = cir.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sta
+
+
+#############################################
+# Order-only phony target for sta
+
+build cmake_object_order_depends_target_sta: phony || .
+
+build old_src/01/CMakeFiles/sta.dir/StackToQueue.cpp.obj: CXX_COMPILER__sta_unscanned_Debug D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/old_src/01/StackToQueue.cpp || cmake_object_order_depends_target_sta
+  DEP_FILE = old_src\01\CMakeFiles\sta.dir\StackToQueue.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = old_src\01\CMakeFiles\sta.dir
+  OBJECT_FILE_DIR = old_src\01\CMakeFiles\sta.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sta
+
+
+#############################################
+# Link the executable old_src\01\sta.exe
+
+build old_src/01/sta.exe: CXX_EXECUTABLE_LINKER__sta_Debug old_src/01/CMakeFiles/sta.dir/StackToQueue.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = old_src\01\CMakeFiles\sta.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = old_src\01\sta.exe
+  TARGET_IMPLIB = old_src\01\libsta.dll.a
+  TARGET_PDB = sta.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ls
+
+
+#############################################
+# Order-only phony target for Ls
+
+build cmake_object_order_depends_target_Ls: phony || .
+
+build old_src/01/CMakeFiles/Ls.dir/Linkedlist.cpp.obj: CXX_COMPILER__Ls_unscanned_Debug D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/old_src/01/Linkedlist.cpp || cmake_object_order_depends_target_Ls
+  DEP_FILE = old_src\01\CMakeFiles\Ls.dir\Linkedlist.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = old_src\01\CMakeFiles\Ls.dir
+  OBJECT_FILE_DIR = old_src\01\CMakeFiles\Ls.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ls
+
+
+#############################################
+# Link the executable old_src\01\Ls.exe
+
+build old_src/01/Ls.exe: CXX_EXECUTABLE_LINKER__Ls_Debug old_src/01/CMakeFiles/Ls.dir/Linkedlist.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = old_src\01\CMakeFiles\Ls.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = old_src\01\Ls.exe
+  TARGET_IMPLIB = old_src\01\libLs.dll.a
+  TARGET_PDB = Ls.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target tra
+
+
+#############################################
+# Order-only phony target for tra
+
+build cmake_object_order_depends_target_tra: phony || .
+
+build old_src/01/CMakeFiles/tra.dir/train.cpp.obj: CXX_COMPILER__tra_unscanned_Debug D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/old_src/01/train.cpp || cmake_object_order_depends_target_tra
+  DEP_FILE = old_src\01\CMakeFiles\tra.dir\train.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = old_src\01\CMakeFiles\tra.dir
+  OBJECT_FILE_DIR = old_src\01\CMakeFiles\tra.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target tra
+
+
+#############################################
+# Link the executable old_src\01\tra.exe
+
+build old_src/01/tra.exe: CXX_EXECUTABLE_LINKER__tra_Debug old_src/01/CMakeFiles/tra.dir/train.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = old_src\01\CMakeFiles\tra.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = old_src\01\tra.exe
+  TARGET_IMPLIB = old_src\01\libtra.dll.a
+  TARGET_PDB = tra.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build old_src/01/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Code_jetbrains_toolbox\Code_dateStructure_Algorithm\cmake-build-debug\old_src\01 && "D:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build old_src/01/edit_cache: phony old_src/01/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build old_src/01/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Code_jetbrains_toolbox\Code_dateStructure_Algorithm\cmake-build-debug\old_src\01 && "D:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Code_jetbrains_toolbox\Code_dateStructure_Algorithm -BD:\Code_jetbrains_toolbox\Code_dateStructure_Algorithm\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build old_src/01/rebuild_cache: phony old_src/01/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/old_src/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Inversions
+
+
+#############################################
+# Order-only phony target for Inversions
+
+build cmake_object_order_depends_target_Inversions: phony || .
+
+build old_src/02/CMakeFiles/Inversions.dir/Inversions.cpp.obj: CXX_COMPILER__Inversions_unscanned_Debug D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/old_src/02/Inversions.cpp || cmake_object_order_depends_target_Inversions
+  DEP_FILE = old_src\02\CMakeFiles\Inversions.dir\Inversions.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = old_src\02\CMakeFiles\Inversions.dir
+  OBJECT_FILE_DIR = old_src\02\CMakeFiles\Inversions.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Inversions
+
+
+#############################################
+# Link the executable old_src\02\Inversions.exe
+
+build old_src/02/Inversions.exe: CXX_EXECUTABLE_LINKER__Inversions_Debug old_src/02/CMakeFiles/Inversions.dir/Inversions.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = old_src\02\CMakeFiles\Inversions.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = old_src\02\Inversions.exe
+  TARGET_IMPLIB = old_src\02\libInversions.dll.a
+  TARGET_PDB = Inversions.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target points
+
+
+#############################################
+# Order-only phony target for points
+
+build cmake_object_order_depends_target_points: phony || .
+
+build old_src/02/CMakeFiles/points.dir/points.cpp.obj: CXX_COMPILER__points_unscanned_Debug D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/old_src/02/points.cpp || cmake_object_order_depends_target_points
+  DEP_FILE = old_src\02\CMakeFiles\points.dir\points.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = old_src\02\CMakeFiles\points.dir
+  OBJECT_FILE_DIR = old_src\02\CMakeFiles\points.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target points
+
+
+#############################################
+# Link the executable old_src\02\points.exe
+
+build old_src/02/points.exe: CXX_EXECUTABLE_LINKER__points_Debug old_src/02/CMakeFiles/points.dir/points.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = old_src\02\CMakeFiles\points.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = old_src\02\points.exe
+  TARGET_IMPLIB = old_src\02\libpoints.dll.a
+  TARGET_PDB = points.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build old_src/02/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Code_jetbrains_toolbox\Code_dateStructure_Algorithm\cmake-build-debug\old_src\02 && "D:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build old_src/02/edit_cache: phony old_src/02/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build old_src/02/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Code_jetbrains_toolbox\Code_dateStructure_Algorithm\cmake-build-debug\old_src\02 && "D:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Code_jetbrains_toolbox\Code_dateStructure_Algorithm -BD:\Code_jetbrains_toolbox\Code_dateStructure_Algorithm\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build old_src/02/rebuild_cache: phony old_src/02/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build Code_dateStructure_Algorithm: phony Code_dateStructure_Algorithm.exe
@@ -745,13 +1187,29 @@ build F: phony 04/F.exe
 
 build F.exe: phony 04/F.exe
 
+build Inversions: phony old_src/02/Inversions.exe
+
+build Inversions.exe: phony old_src/02/Inversions.exe
+
 build L: phony 02/L.exe
 
 build L.exe: phony 02/L.exe
 
+build LinkorFlower: phony 05/LinkorFlower.exe
+
+build LinkorFlower.exe: phony 05/LinkorFlower.exe
+
+build Ls: phony old_src/01/Ls.exe
+
+build Ls.exe: phony old_src/01/Ls.exe
+
 build air: phony 01/air.exe
 
 build air.exe: phony 01/air.exe
+
+build bbt: phony 05/bbt.exe
+
+build bbt.exe: phony 05/bbt.exe
 
 build c: phony 02/c.exe
 
@@ -761,9 +1219,17 @@ build cc: phony 03/cc.exe
 
 build cc.exe: phony 03/cc.exe
 
+build cir: phony old_src/01/cir.exe
+
+build cir.exe: phony old_src/01/cir.exe
+
 build city_skyline: phony 01/city_skyline.exe
 
 build city_skyline.exe: phony 01/city_skyline.exe
+
+build cl: phony 05/cl.exe
+
+build cl.exe: phony 05/cl.exe
 
 build ct: phony 03/ct.exe
 
@@ -785,6 +1251,10 @@ build numlistSolve: phony 01/numlistSolve.exe
 
 build numlistSolve.exe: phony 01/numlistSolve.exe
 
+build points: phony old_src/02/points.exe
+
+build points.exe: phony old_src/02/points.exe
+
 build s2: phony 04/s2.exe
 
 build s2.exe: phony 04/s2.exe
@@ -792,6 +1262,10 @@ build s2.exe: phony 04/s2.exe
 build ss: phony 04/ss.exe
 
 build ss.exe: phony 04/ss.exe
+
+build sta: phony old_src/01/sta.exe
+
+build sta.exe: phony old_src/01/sta.exe
 
 build strangeComputer: phony 01/strangeComputer.exe
 
@@ -805,6 +1279,14 @@ build swap: phony 02/swap.exe
 
 build swap.exe: phony 02/swap.exe
 
+build tra: phony old_src/01/tra.exe
+
+build tra.exe: phony old_src/01/tra.exe
+
+build uni: phony 05/uni.exe
+
+build uni.exe: phony 05/uni.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -813,7 +1295,7 @@ build swap.exe: phony 02/swap.exe
 #############################################
 # Folder: D:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/cmake-build-debug
 
-build all: phony Code_dateStructure_Algorithm.exe 01/all 02/all 03/all 04/all
+build all: phony Code_dateStructure_Algorithm.exe 01/all 02/all 03/all 04/all 05/all old_src/all
 
 # =============================================================================
 
@@ -844,20 +1326,48 @@ build 03/all: phony 03/min.exe 03/data.exe 03/cc.exe 03/ct.exe
 build 04/all: phony 04/ss.exe 04/s2.exe 04/F.exe 04/dd.exe
 
 # =============================================================================
+
+#############################################
+# Folder: D:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/cmake-build-debug/05
+
+build 05/all: phony 05/cl.exe 05/LinkorFlower.exe 05/uni.exe 05/bbt.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/cmake-build-debug/old_src
+
+build old_src/all: phony old_src/01/all old_src/02/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/cmake-build-debug/old_src/01
+
+build old_src/01/all: phony old_src/01/cir.exe old_src/01/sta.exe old_src/01/Ls.exe old_src/01/tra.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/cmake-build-debug/old_src/02
+
+build old_src/02/all: phony old_src/02/Inversions.exe old_src/02/points.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/01/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/02/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/03/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/04/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/CMakeLists.txt D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/01/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/02/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/03/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/04/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/05/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/old_src/01/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/old_src/02/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/old_src/CMakeLists.txt D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/01/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/02/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/03/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/04/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/CMakeLists.txt D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
+build CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/01/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/02/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/03/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/04/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/05/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/old_src/01/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/old_src/02/CMakeLists.txt D$:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/old_src/CMakeLists.txt D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################
