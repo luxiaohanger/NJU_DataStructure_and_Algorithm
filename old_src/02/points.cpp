@@ -1,52 +1,81 @@
+#include <bits/stdc++.h>
+using namespace std;
+using ll = long long;
+using ld = long double;
 
-// 划分函数：将数组分为小于主元和大于主元的两部分
-int partition(vector<int>& nums, int low, int high) {
-    // 选取最后一个元素作为主元（实际主元已在调用前随机选择并交换至此）
-    int pivot = nums[high];
-    int i = low - 1;  // i指向小于主元的最后一个元素
+struct point {
+    ll x = 0;
+    ll y = 0;
+};
 
-    // 遍历区间 [low, high-1]
-    for (int j = low; j < high; j++) {
-        if (nums[j] < pivot) {
-            i++;
-            swap(nums[i], nums[j]);  // 将小于主元的元素移到左侧
+double dist(point a, point b) {
+    return sqrt(pow(a.x - b.x, 2) + pow(a.y - b.y, 2));
+}
+
+struct cmpbyx {
+    bool operator()(const point a, const point b) {
+        return a.x <= b.x;
+    }
+};
+
+struct cmpbyy {
+    bool operator()(const point a, const point b) {
+        return a.y <= b.y;
+    }
+};
+
+double mindist(const vector<point> &points, int left, int right) {
+    //left and right is the idx of point
+    if (left == right) {
+        return 1e15;
+    }
+
+    if (left + 1 == right) {
+        return dist(points[left], points[right]);
+    }
+
+    int mid = (left + right) / 2;
+    double minleft = mindist(points, left, mid);
+    double minright = mindist(points, mid, right);
+    double tempmin = min(minleft, minright);
+    int midl = mid;
+    int midr = mid;
+    while (points[mid].x - points[midl].x <= tempmin && midl > left) {
+        midl-- ;
+    }
+    while (points[midr].x - points[mid].x <= tempmin && midr < right) {
+        midr++ ;
+    }
+    double ans = tempmin;
+    vector<point> newpoints (points.begin()+midl,points.begin()+midr+1);
+    sort(newpoints.begin(),newpoints.end(),cmpbyy());
+    for(int i=0;i<newpoints.size();++i) {
+        for(int j = i+1;j<newpoints.size();++j) {
+            if(abs(newpoints[i].x - newpoints[j].x)>ans)continue;
+            double dis = dist(newpoints[i],newpoints[j]);
+            ans = min(ans,dis);
         }
     }
-    // 将主元放到正确位置（i+1）
-    swap(nums[i + 1], nums[high]);
-    return i + 1;  // 返回主元最终位置
+    return ans;
+    //
 }
 
-// 随机选择算法核心实现（迭代版）
-int quickSelect(vector<int>& nums, int low, int high, int k) {
-    while (true) {
-        if (low == high) return nums[low];  // 区间只剩一个元素时直接返回
-
-        // 随机选择主元索引并交换到末尾
-        int pivot_index = low + rand() % (high - low + 1);
-        swap(nums[pivot_index], nums[high]);
-
-        // 划分数组并获取主元位置
-        pivot_index = partition(nums, low, high);
-
-        // 根据k与主元位置的关系缩小搜索范围
-        if (k == pivot_index) return nums[k];        // 找到目标元素
-        else if (k < pivot_index) high = pivot_index - 1;  // 在左半部分继续搜索
-        else low = pivot_index + 1;                 // 在右半部分继续搜索
+void solve() {
+    int n;
+    cin >> n;
+    vector<point> points(n);
+    for (int i = 0; i < n; ++i) {
+        cin >> points[i].x;
+        cin >> points[i].y;
     }
+    sort(points.begin(), points.end(), cmpbyx());
+    double ans = mindist(points,0,n-1);
+    cout << fixed << setprecision(4) << ans;
 }
 
-// 用户接口：查找第k小元素（1-based）
-int findKthSmallest(vector<int>& nums, int k) {
-    int n = nums.size();
-    // 检查k的有效性
-    if (k < 1 || k > n) {
-        cerr << "Error: k must be between 1 and " << n << endl;
-        return INT_MIN;
-    }
-
-    srand(time(0));  // 初始化随机数种子
-    // 调用核心算法（k转换为0-based索引）
-    return quickSelect(nums, 0, n - 1, k - 1);
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    solve();
+    return 0;
 }
-

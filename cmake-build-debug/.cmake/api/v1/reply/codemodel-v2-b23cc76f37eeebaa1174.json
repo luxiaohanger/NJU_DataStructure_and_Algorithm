@@ -13,7 +13,10 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7,
+						8,
+						13
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -24,7 +27,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						36
 					]
 				},
 				{
@@ -40,9 +44,9 @@
 					"targetIndexes" : 
 					[
 						6,
-						11,
-						17,
-						22
+						13,
+						24,
+						31
 					]
 				},
 				{
@@ -58,9 +62,9 @@
 					"targetIndexes" : 
 					[
 						3,
-						8,
-						23,
-						24
+						9,
+						32,
+						33
 					]
 				},
 				{
@@ -75,10 +79,10 @@
 					"source" : "03",
 					"targetIndexes" : 
 					[
-						9,
-						13,
-						14,
-						16
+						10,
+						15,
+						16,
+						22
 					]
 				},
 				{
@@ -94,9 +98,9 @@
 					"targetIndexes" : 
 					[
 						1,
-						15,
-						19,
-						20
+						17,
+						27,
+						28
 					]
 				},
 				{
@@ -112,17 +116,53 @@
 					"targetIndexes" : 
 					[
 						4,
+						8,
+						14,
+						39
+					]
+				},
+				{
+					"build" : "06",
+					"jsonFile" : "directory-06-Debug-ffbb30871a3bc430220b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "06",
+					"targetIndexes" : 
+					[
+						18,
+						19,
+						23
+					]
+				},
+				{
+					"build" : "07",
+					"jsonFile" : "directory-07-Debug-65aabbc9787ebdfe0289.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "07",
+					"targetIndexes" : 
+					[
 						7,
-						12,
-						26
+						11,
+						29
 					]
 				},
 				{
 					"build" : "old_src",
 					"childIndexes" : 
 					[
-						7,
-						8
+						9,
+						10,
+						11,
+						12
 					],
 					"jsonFile" : "directory-old_src-Debug-5255e1900163e0e3a79e.json",
 					"minimumCMakeVersion" : 
@@ -140,15 +180,15 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 6,
+					"parentIndex" : 8,
 					"projectIndex" : 0,
 					"source" : "old_src/01",
 					"targetIndexes" : 
 					[
 						5,
-						10,
-						21,
-						25
+						12,
+						30,
+						38
 					]
 				},
 				{
@@ -158,13 +198,61 @@
 					{
 						"string" : "3.29"
 					},
-					"parentIndex" : 6,
+					"parentIndex" : 8,
 					"projectIndex" : 0,
 					"source" : "old_src/02",
 					"targetIndexes" : 
 					[
 						2,
-						18
+						20,
+						25
+					]
+				},
+				{
+					"build" : "old_src/03",
+					"jsonFile" : "directory-old_src.03-Debug-05f5f67982304bc9393e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "old_src/03",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "old_src/05",
+					"jsonFile" : "directory-old_src.05-Debug-b0fda607400bb1091793.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "old_src/05",
+					"targetIndexes" : 
+					[
+						26,
+						37
+					]
+				},
+				{
+					"build" : "midTest",
+					"jsonFile" : "directory-midTest-Debug-b23fa5691711882ffd46.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "midTest",
+					"targetIndexes" : 
+					[
+						34,
+						35
 					]
 				}
 			],
@@ -182,7 +270,12 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
 					],
 					"name" : "Code_dateStructure_Algorithm",
 					"targetIndexes" : 
@@ -213,7 +306,20 @@
 						23,
 						24,
 						25,
-						26
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39
 					]
 				}
 			],
@@ -234,7 +340,7 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 10,
 					"id" : "Inversions::@801ee63a3b470321c8d3",
 					"jsonFile" : "target-Inversions-Debug-9958e92e11faa745ace2.json",
 					"name" : "Inversions",
@@ -255,7 +361,7 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 7,
+					"directoryIndex" : 9,
 					"id" : "Ls::@a1f4446b93638f05c289",
 					"jsonFile" : "target-Ls-Debug-1f45f534ced4f8f131eb.json",
 					"name" : "Ls",
@@ -266,6 +372,13 @@
 					"id" : "air::@b6636575af0a6514c0ef",
 					"jsonFile" : "target-air-Debug-854d2226ac8abb016912.json",
 					"name" : "air",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "as::@6cec3790ea4902a81ce1",
+					"jsonFile" : "target-as-Debug-97ade5fe593e3711959a.json",
+					"name" : "as",
 					"projectIndex" : 0
 				},
 				{
@@ -291,6 +404,13 @@
 				},
 				{
 					"directoryIndex" : 7,
+					"id" : "ci::@6cec3790ea4902a81ce1",
+					"jsonFile" : "target-ci-Debug-58bb9ae958995041afd9.json",
+					"name" : "ci",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
 					"id" : "cir::@a1f4446b93638f05c289",
 					"jsonFile" : "target-cir-Debug-93818f990cec7040bbbe.json",
 					"name" : "cir",
@@ -332,10 +452,45 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 6,
+					"id" : "en::@4341562f5bb7848ac4d7",
+					"jsonFile" : "target-en-Debug-f296d019c8cdf768cde3.json",
+					"name" : "en",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "line::@4341562f5bb7848ac4d7",
+					"jsonFile" : "target-line-Debug-c1eb50ec82bcd3f1d287.json",
+					"name" : "line",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "matrix::@801ee63a3b470321c8d3",
+					"jsonFile" : "target-matrix-Debug-49e16af43c225cec69f7.json",
+					"name" : "matrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "me::@288df311df1b0a5f6e87",
+					"jsonFile" : "target-me-Debug-8755beb037bef1724aaf.json",
+					"name" : "me",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 3,
 					"id" : "min::@18fdd8e98e1eaab5e303",
 					"jsonFile" : "target-min-Debug-797cc83a4bd6d33e8f62.json",
 					"name" : "min",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "myset::@4341562f5bb7848ac4d7",
+					"jsonFile" : "target-myset-Debug-5e058aae1b6551c1cd05.json",
+					"name" : "myset",
 					"projectIndex" : 0
 				},
 				{
@@ -346,10 +501,17 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 10,
 					"id" : "points::@801ee63a3b470321c8d3",
 					"jsonFile" : "target-points-Debug-67d8831cdd8a8a3220c8.json",
 					"name" : "points",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "pre::@3ee1f53a1313adf60380",
+					"jsonFile" : "target-pre-Debug-931ee73d8223c462c37f.json",
+					"name" : "pre",
 					"projectIndex" : 0
 				},
 				{
@@ -368,6 +530,13 @@
 				},
 				{
 					"directoryIndex" : 7,
+					"id" : "st::@6cec3790ea4902a81ce1",
+					"jsonFile" : "target-st-Debug-0e3662f9eebb9fd1bb82.json",
+					"name" : "st",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
 					"id" : "sta::@a1f4446b93638f05c289",
 					"jsonFile" : "target-sta-Debug-aeea8b2e7e25370470f2.json",
 					"name" : "sta",
@@ -395,7 +564,35 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 7,
+					"directoryIndex" : 13,
+					"id" : "t3::@c428ba6aa857fe1fafd9",
+					"jsonFile" : "target-t3-Debug-962d667708b0cd7bcf26.json",
+					"name" : "t3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "t4::@c428ba6aa857fe1fafd9",
+					"jsonFile" : "target-t4-Debug-329ad369437556e6b1bc.json",
+					"name" : "t4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-463710c83efb87b27a59.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "tp::@3ee1f53a1313adf60380",
+					"jsonFile" : "target-tp-Debug-ac8136fea1bec6eae6ca.json",
+					"name" : "tp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
 					"id" : "tra::@a1f4446b93638f05c289",
 					"jsonFile" : "target-tra-Debug-f70a0a8555a39641c946.json",
 					"name" : "tra",

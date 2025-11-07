@@ -47,3 +47,13 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("D:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/cmake-build-debug/old_src/02/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/cmake-build-debug/old_src/03/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/Code_jetbrains_toolbox/Code_dateStructure_Algorithm/cmake-build-debug/old_src/05/cmake_install.cmake")
+endif()
+

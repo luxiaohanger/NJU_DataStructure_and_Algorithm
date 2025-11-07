@@ -166,6 +166,12 @@
 			"path" : "05/CMakeLists.txt"
 		},
 		{
+			"path" : "06/CMakeLists.txt"
+		},
+		{
+			"path" : "07/CMakeLists.txt"
+		},
+		{
 			"path" : "old_src/CMakeLists.txt"
 		},
 		{
@@ -173,6 +179,15 @@
 		},
 		{
 			"path" : "old_src/02/CMakeLists.txt"
+		},
+		{
+			"path" : "old_src/03/CMakeLists.txt"
+		},
+		{
+			"path" : "old_src/05/CMakeLists.txt"
+		},
+		{
+			"path" : "midTest/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
